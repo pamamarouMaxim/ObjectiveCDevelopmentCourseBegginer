@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C706E16E1FC06D1B00E7886A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C706E16D1FC06D1B00E7886A /* main.m */; };
+		C706E1711FC06D1B00E7886A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C706E1701FC06D1B00E7886A /* AppDelegate.m */; };
+		C706E1741FC06D1B00E7886A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C706E1731FC06D1B00E7886A /* ViewController.m */; };
+		C706E1771FC06D1B00E7886A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C706E1751FC06D1B00E7886A /* Main.storyboard */; };
+		C706E1791FC06D1B00E7886A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C706E1781FC06D1B00E7886A /* Assets.xcassets */; };
+		C706E17C1FC06D1B00E7886A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C706E17A1FC06D1B00E7886A /* LaunchScreen.storyboard */; };
+		C706E1871FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C706E1861FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.m */; };
+		C706E1921FC2FFF300E7886A /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = C706E1911FC2FFF300E7886A /* Argentina.png */; };
+		C706E1951FC3000100E7886A /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = C706E1931FC3000100E7886A /* Australia.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C706E1831FC06D1B00E7886A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C706E1611FC06D1B00E7886A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C706E1681FC06D1B00E7886A;
+			remoteInfo = CBAnimationHomeworkLesson21;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C706E1691FC06D1B00E7886A /* CBAnimationHomeworkLesson21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBAnimationHomeworkLesson21.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706E16D1FC06D1B00E7886A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C706E16F1FC06D1B00E7886A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C706E1701FC06D1B00E7886A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C706E1721FC06D1B00E7886A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C706E1731FC06D1B00E7886A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C706E1761FC06D1B00E7886A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C706E1781FC06D1B00E7886A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C706E17B1FC06D1B00E7886A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C706E17D1FC06D1B00E7886A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C706E1821FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBAnimationHomeworkLesson21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C706E1861FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAnimationHomeworkLesson21Tests.m; sourceTree = "<group>"; };
+		C706E1881FC06D1B00E7886A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C706E1911FC2FFF300E7886A /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Argentina.png; path = ImageForLesson/Argentina.png; sourceTree = "<group>"; };
+		C706E1931FC3000100E7886A /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Australia.png; path = ImageForLesson/Australia.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C706E1661FC06D1B00E7886A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706E17F1FC06D1B00E7886A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C706E1601FC06D1A00E7886A = {
+			isa = PBXGroup;
+			children = (
+				C706E16B1FC06D1B00E7886A /* CBAnimationHomeworkLesson21 */,
+				C706E1851FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests */,
+				C706E16A1FC06D1B00E7886A /* Products */,
+				C706E1971FC3001200E7886A /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		C706E16A1FC06D1B00E7886A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C706E1691FC06D1B00E7886A /* CBAnimationHomeworkLesson21.app */,
+				C706E1821FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C706E16B1FC06D1B00E7886A /* CBAnimationHomeworkLesson21 */ = {
+			isa = PBXGroup;
+			children = (
+				C706E16F1FC06D1B00E7886A /* AppDelegate.h */,
+				C706E1701FC06D1B00E7886A /* AppDelegate.m */,
+				C706E1721FC06D1B00E7886A /* ViewController.h */,
+				C706E1731FC06D1B00E7886A /* ViewController.m */,
+				C706E1751FC06D1B00E7886A /* Main.storyboard */,
+				C706E1781FC06D1B00E7886A /* Assets.xcassets */,
+				C706E17A1FC06D1B00E7886A /* LaunchScreen.storyboard */,
+				C706E17D1FC06D1B00E7886A /* Info.plist */,
+				C706E16C1FC06D1B00E7886A /* Supporting Files */,
+			);
+			path = CBAnimationHomeworkLesson21;
+			sourceTree = "<group>";
+		};
+		C706E16C1FC06D1B00E7886A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C706E16D1FC06D1B00E7886A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C706E1851FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C706E1861FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.m */,
+				C706E1881FC06D1B00E7886A /* Info.plist */,
+			);
+			path = CBAnimationHomeworkLesson21Tests;
+			sourceTree = "<group>";
+		};
+		C706E1971FC3001200E7886A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C706E1931FC3000100E7886A /* Australia.png */,
+				C706E1911FC2FFF300E7886A /* Argentina.png */,
+			);
+			name = Images;
+			path = CBAnimationHomeworkLesson21;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C706E1681FC06D1B00E7886A /* CBAnimationHomeworkLesson21 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706E18B1FC06D1B00E7886A /* Build configuration list for PBXNativeTarget "CBAnimationHomeworkLesson21" */;
+			buildPhases = (
+				C706E1651FC06D1B00E7886A /* Sources */,
+				C706E1661FC06D1B00E7886A /* Frameworks */,
+				C706E1671FC06D1B00E7886A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBAnimationHomeworkLesson21;
+			productName = CBAnimationHomeworkLesson21;
+			productReference = C706E1691FC06D1B00E7886A /* CBAnimationHomeworkLesson21.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C706E1811FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C706E18E1FC06D1B00E7886A /* Build configuration list for PBXNativeTarget "CBAnimationHomeworkLesson21Tests" */;
+			buildPhases = (
+				C706E17E1FC06D1B00E7886A /* Sources */,
+				C706E17F1FC06D1B00E7886A /* Frameworks */,
+				C706E1801FC06D1B00E7886A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C706E1841FC06D1B00E7886A /* PBXTargetDependency */,
+			);
+			name = CBAnimationHomeworkLesson21Tests;
+			productName = CBAnimationHomeworkLesson21Tests;
+			productReference = C706E1821FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C706E1611FC06D1B00E7886A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Max;
+				TargetAttributes = {
+					C706E1681FC06D1B00E7886A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C706E1811FC06D1B00E7886A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C706E1681FC06D1B00E7886A;
+					};
+				};
+			};
+			buildConfigurationList = C706E1641FC06D1B00E7886A /* Build configuration list for PBXProject "CBAnimationHomeworkLesson21" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C706E1601FC06D1A00E7886A;
+			productRefGroup = C706E16A1FC06D1B00E7886A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C706E1681FC06D1B00E7886A /* CBAnimationHomeworkLesson21 */,
+				C706E1811FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C706E1671FC06D1B00E7886A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C706E1951FC3000100E7886A /* Australia.png in Resources */,
+				C706E17C1FC06D1B00E7886A /* LaunchScreen.storyboard in Resources */,
+				C706E1921FC2FFF300E7886A /* Argentina.png in Resources */,
+				C706E1791FC06D1B00E7886A /* Assets.xcassets in Resources */,
+				C706E1771FC06D1B00E7886A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706E1801FC06D1B00E7886A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C706E1651FC06D1B00E7886A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C706E1741FC06D1B00E7886A /* ViewController.m in Sources */,
+				C706E1711FC06D1B00E7886A /* AppDelegate.m in Sources */,
+				C706E16E1FC06D1B00E7886A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C706E17E1FC06D1B00E7886A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C706E1871FC06D1B00E7886A /* CBAnimationHomeworkLesson21Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C706E1841FC06D1B00E7886A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C706E1681FC06D1B00E7886A /* CBAnimationHomeworkLesson21 */;
+			targetProxy = C706E1831FC06D1B00E7886A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C706E1751FC06D1B00E7886A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C706E1761FC06D1B00E7886A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C706E17A1FC06D1B00E7886A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C706E17B1FC06D1B00E7886A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C706E1891FC06D1B00E7886A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C706E18A1FC06D1B00E7886A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C706E18C1FC06D1B00E7886A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBAnimationHomeworkLesson21/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Panamarou.CBAnimationHomeworkLesson21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C706E18D1FC06D1B00E7886A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBAnimationHomeworkLesson21/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Panamarou.CBAnimationHomeworkLesson21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C706E18F1FC06D1B00E7886A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CBAnimationHomeworkLesson21Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Panamarou.CBAnimationHomeworkLesson21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBAnimationHomeworkLesson21.app/CBAnimationHomeworkLesson21";
+			};
+			name = Debug;
+		};
+		C706E1901FC06D1B00E7886A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CBAnimationHomeworkLesson21Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Panamarou.CBAnimationHomeworkLesson21Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBAnimationHomeworkLesson21.app/CBAnimationHomeworkLesson21";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C706E1641FC06D1B00E7886A /* Build configuration list for PBXProject "CBAnimationHomeworkLesson21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706E1891FC06D1B00E7886A /* Debug */,
+				C706E18A1FC06D1B00E7886A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C706E18B1FC06D1B00E7886A /* Build configuration list for PBXNativeTarget "CBAnimationHomeworkLesson21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706E18C1FC06D1B00E7886A /* Debug */,
+				C706E18D1FC06D1B00E7886A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C706E18E1FC06D1B00E7886A /* Build configuration list for PBXNativeTarget "CBAnimationHomeworkLesson21Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C706E18F1FC06D1B00E7886A /* Debug */,
+				C706E1901FC06D1B00E7886A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C706E1611FC06D1B00E7886A /* Project object */;
+}
